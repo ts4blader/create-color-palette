@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Balsamiq+Sans&display=swap");
+
+$mainFont: "Alata";
+$subFont: "Balsamiq Sans";
+
+$mainColor: #d46363;
+$subColor: #bac3f8;
+$darkColor: #0a2b05;
+$lightColor: #dde9db;
+$blackColor: #2d3436;
+$whiteColor: #ffffff;
+
+$baseSize: 1;
+
+// Class
+
+// font
+.mainFont {
+  font-family: $mainFont;
+}
+.subFont {
+  font-family: $subFont;
+}
+
+// background
+
+.bg-main {
+  background: $mainColor;
+}
+.bg-sub {
+  background: $subColor;
+}
+.bg-dark {
+  background: $darkColor;
+}
+.bg-light {
+  background: $lightColor;
+}
+.bg-black {
+  background: $blackColor;
+}
+.bg-white {
+  background: $whiteColor;
+}
+
+//text
+
+.text-main {
+  color: $mainColor;
+}
+.text-sub {
+  color: $subColor;
+}
+.text-dark {
+  color: $darkColor;
+}
+.text-light {
+  color: $lightColor;
+}
+.text-black {
+  color: $blackColor;
+}
+.text-white {
+  color: $whiteColor;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+// font size
+
+.font-sm {
+  font-size: $baseSize - 0.2 + rem;
+}
+.font-md {
+  font-size: $baseSize + 0.2 + rem;
+}
+.font-lg {
+  font-size: $baseSize + 0.5 + rem;
+}
+.font-xl {
+  font-size: $baseSize + 0.8 + rem;
+}
+
+//border
+.hightlight {
+  border: 1px solid black;
+}
+
+.br-none {
+  border-radius: 0;
+}

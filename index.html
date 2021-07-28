@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Color Pattelet</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/template/theme.css" />
+    <link rel="stylesheet" href="./css/main/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body class="mainFont">
+    <div
+      class="jumbotron text-sub bg-dark br-none d-flex justify-content-around"
+    >
+      <div>
+        <h1 class="display-4">Hii there!</h1>
+        <p class="lead">Create a Color Palette with one Color</p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./res/icons/color-palette.png"
+          alt="Color-Palette"
+          class="w-25"
+        />
+      </div>
+    </div>
+
+    <div class="jumbotron bg-white text-dark step" id="step1">
+      <h1 class="display-4 text-italic text-underline text-main">Step 1</h1>
+      <ul>
+        <li class="d-flex justify-content-around align-items-center">
+          <div>
+            <p class="lead">- Pick a random color</p>
+            <p class="lead">Ex: #43B7AA</p>
+          </div>
+          <div>
+            <img src="./res/image/uni-color.png" alt="Uni-color" />
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="jumbotron bg-white text-dark step" id="step2">
+      <h1 class="display-4 text-italic text-underline text-main">Step 2</h1>
+      <ul>
+        <li class="d-flex justify-content-around align-items-center m-3">
+          <div>
+            <p class="lead">- Pick the next color by Arc</p>
+          </div>
+          <div>
+            <img src="./res/image/arc.png" alt="arc" />
+          </div>
+        </li>
+        <li class="d-flex justify-content-around align-items-center m-3">
+          <div>
+            <p class="lead">- Pick four or three color by Arc direction</p>
+            <p class="lead">To the left: #B6B1F2, #E483D8, #D46363</p>
+            <p class="lead">To the right: #175705, #817610, #a42323</p>
+          </div>
+          <div>
+            <img src="./res/image/full-color.png" alt="arc" />
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="jumbotron bg-white text-dark step" id="step3">
+      <h1 class="display-4 text-italic text-underline text-main">Step 3</h1>
+      <ul>
+        <li class="d-flex justify-content-around align-items-center m-3">
+          <div>
+            <p class="lead">- Adjust hue, satruation, lightness</p>
+            <p class="lead">- Make the top lighter</p>
+            <p class="lead">- Make the bottom darker</p>
+          </div>
+          <div>
+            <img src="./res/image/complete.png" alt="Complete" />
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="jumbotron bg-white text-dark step text-center" id="step4">
+      <h1 class="display-4 text-italic text-underline text-main my-2 mx-0">
+        Step 4
+      </h1>
+      <p class="lead">Pick some color you want</p>
+      <div
+        class="container text-center d-flex justify-content-center align-items-center"
+      >
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="./res/image/dark-theme.png"
+              alt="Dark-theme"
+              class="w-100"
+            />
+            <h4 class="title">Dark theme</h4>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="./res/image/light-theme.png"
+              alt="Light-theme"
+              class="w-100"
+            />
+            <h4 class="title">Light theme</h4>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="./res/image/constract.png"
+              alt="Constract-theme"
+              class="w-75"
+            />
+            <h4 class="title">Contract theme</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

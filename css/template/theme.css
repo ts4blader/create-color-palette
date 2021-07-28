@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Balsamiq+Sans&display=swap");
+.mainFont {
+  font-family: "Alata";
+}
+
+.subFont {
+  font-family: "Balsamiq Sans";
+}
+
+.bg-main {
+  background: #d46363;
+}
+
+.bg-sub {
+  background: #bac3f8;
+}
+
+.bg-dark {
+  background: #0a2b05;
+}
+
+.bg-light {
+  background: #dde9db;
+}
+
+.bg-black {
+  background: #2d3436;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.text-main {
+  color: #d46363;
+}
+
+.text-sub {
+  color: #bac3f8;
+}
+
+.text-dark {
+  color: #0a2b05;
+}
+
+.text-light {
+  color: #dde9db;
+}
+
+.text-black {
+  color: #2d3436;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}
+
+.font-md {
+  font-size: 1.2rem;
+}
+
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 1.8rem;
+}
+
+.hightlight {
+  border: 1px solid black;
+}
+
+.br-none {
+  border-radius: 0;
+}
+/*# sourceMappingURL=theme.css.map */
